@@ -64,6 +64,17 @@ p {
   font-style: italic;
 }
 
+h5 {
+  text-align: left;
+  font-family: "Scout", Verdana, Arial, serif;
+  font-size: 34px;
+  line-height: 1.2em;
+  padding-left: 10px;
+  margin-bottom: 0;
+  font-style: italic;
+  width:100%;
+}
+
 #snow {
     position: fixed;
     top: 0;
@@ -463,15 +474,14 @@ p {
 
 .artist-text-column {
   position: relative;
+  overflow: scroll;
+  height:100vh;
+  padding-bottom: 30px;
 }
 
+
 .artist-centered-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding:30px;
-  height:100%;
 }
 
 .modal-closelink {
@@ -501,10 +511,9 @@ p {
 
   .artist-text-column {
     display: block;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
     padding:30px;
+    height:auto;
   }
 
   .artist-image-column img {
@@ -513,6 +522,7 @@ p {
     margin:0 auto;
     display: block;
   }
+
 
 }
 
