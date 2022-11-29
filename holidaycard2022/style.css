@@ -484,6 +484,9 @@ h5 {
   padding:30px;
 }
 
+
+
+
 .modal-closelink {
   position:absolute;
   left:0;
@@ -499,6 +502,11 @@ h5 {
   font-style: normal;
   width:100%;
 }
+
+.artwork-info {
+  text-align: right;
+}
+
 
 @media (max-width: 900px) {
   .artist-content {
