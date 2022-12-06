@@ -28,7 +28,7 @@ https://www.balbooa.com/showcase-template/gridbox/falling-snowflakes-animation
 
 body {
 
- background-color:#2b3a51;
+ background-color:#294b7d;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -117,15 +117,25 @@ h5 {
 
 }
 
-.helene-signature {
+.ceo-signature {
 	width: 60%;
 	margin: 0 auto;
 }
 
-.helene-signature img {
+.ceo-signature img {
 	width: 100%;
 	height:auto;
 }
+
+.ceo-name {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  margin:0;
+}
+
+
 
 
 .top-flap {
@@ -530,11 +540,22 @@ h5 {
     margin:0 auto;
     display: block;
   }
+  .artist-centered-content {
+    padding:0px;
+  }
+
+  .artist-text-column {
+    padding:20px;
+  }
 
 
 }
 
 @media (max-width: 479px) {
+  .ceo-signature {
+  	width: 40%;
+  	margin: 0 auto;
+  }
 
 	 .artist-content p {
 	 	font-size: 14px;
@@ -809,14 +830,15 @@ h5 {
   .cart-page-bottom {
     background-position: 85px 30px;
   }
+  .cart-page-bottom-message {
+    min-width: 300px;
+}
 }
 @media (max-width: 479px) {
   .cart-page-bottom {
     background-position: 0px 30px;
   }
-  .cart-page-bottom-message {
-    min-width: 300px;
-}
+
 }
 
 .cart-page-top-message,
@@ -844,6 +866,7 @@ h5 {
   }
   .chicago-community-trust-logo svg {
 	  margin-top: -20px;
+        max-width: 200px;
   }
 }
 @media (max-width: 479px) {
@@ -883,15 +906,24 @@ h5 {
 }
 
 @media (max-width: 767px) {
+  .click-icon {
+    left: 48%;
+  }
   .click-icon svg {
     width: 72px;
     height: 72px;
+    transform: translate(10%, 0);
   }
 }
 @media (max-width: 479px) {
+  .click-icon {
+    left: 50%;
+    margin-left: -20px;
+  }
   .click-icon svg {
     width: 48px;
     height: 48px;
+    transform: translate(40%, 0);
   }
 }
 .click-icon.is-hidden {
