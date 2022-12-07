@@ -173,12 +173,14 @@ h5 {
 
 .envelope-container.is-open {
   top: calc(50% - 100px);
+  transform:rotate(90deg);
+
 }
 
 @media (min-width: 768px) {
 
   .envelope-container.is-open {
-  transform:rotate(90deg);
+
   }
 	}
 
@@ -643,9 +645,6 @@ h5 {
 	font-weight: bold;
 	font-size: 1.2rem;
 	color: white;
-
-
-
 }
 
 }
@@ -710,15 +709,7 @@ h5 {
     height: 300px;
   }
 }
-@media (max-width: 479px) {
-  /*
-  .card,
-  .card-page {
-    width: 150px;
-    height: 214px;
-  }
-  */
-}
+
 
 .card-page {
   transition: transform 1s ease-in-out;
@@ -751,7 +742,7 @@ h5 {
 
 @media (max-width: 767px) {
   .card.is-opened {
-    transform: rotate(89deg) translate(115px, 0) !important;
+    transform: translate(115px, 0) !important;
   }
   .card.is-opened .cart-page-front {
   transform: rotateY(-180deg) !important;
@@ -759,7 +750,7 @@ h5 {
 }
 @media (max-width: 479px) {
   .card.is-opened {
-    transform: rotate(89deg) translate(75px, 0) !important;
+    transform: translate(75px, 0) !important;
   }
   .card.is-opened .cart-page-front {
   transform: rotateY(-180deg) !important;
